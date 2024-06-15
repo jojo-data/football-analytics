@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "football-analytics"
+version = "0.1.0"
+description = "A repository for football analytics"
+authors = ["joe.jiang <joe.jiang@pearson.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+mplsoccer = "^1.2.4"
+lxml = "^5.2.2"
+statsbombpy = "^1.13.0"
+crewai = "^0.30.11"
+crewai-tools = "^0.2.6"
+langchain-community = "0.0.29"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "6.5.0"
+jupyter-to-medium = "^0.2.13"
+notebook = "6.5.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
